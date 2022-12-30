@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Andika', sans-serif;
+    font-weight: 600;
+    background-color: #333;
+    color: #fff;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+form {
+    width: 90%;
+    border: 4px solid rgb(61, 61, 61);
+    background-color: #21025a;
+    padding: 10px;
+    border-radius: 10px;
+}
+form > * {
+    margin-bottom: 4px;
+    background-color: #21025a;
+}
+
+
+.red {
+    color: crimson;
+}
+.bg-erro {
+    background-color:#21025a;
+}
+.copy-code {
+    color: rgb(94, 179, 10);
+    background-color:#21025a;
+}
+#copy-button {
+    display: none;
+}
+button {
+    background-color: deepskyblue;
+    border: none;
+    padding: 0.3em;    
+    border-radius: 5px;
+}
+button:hover {
+    opacity: 0.9;
+    box-shadow: 0 2px 2px 0 rgb(0, 124, 207);
+    cursor: pointer;
+}
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+input[type=number]:focus {
+    outline: none;
+}
+
+@media (min-width: 600px) {
+    #container {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1080px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    #container {
+        max-width: 40%;
+    }
+}
