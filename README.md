@@ -1,5 +1,5 @@
 # password_generator
-Um gerador de senhas feito em javascript
+A password generator made in javascript
 
 ![image](https://user-images.githubusercontent.com/100482426/210117945-efc349af-15f2-4335-9fb7-bfb0d63a3678.png)
 
